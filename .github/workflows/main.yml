@@ -2,7 +2,7 @@ name: Trigger Central Pipeline
 on:
   push:
     branches:
-      - main
+      - 'feature/*'
 jobs:
   trigger:
     runs-on: ubuntu-latest
